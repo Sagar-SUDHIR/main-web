@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Skills - SagarVS</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #0ff;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 10px #0ff;
+    }
+    .section {
+      margin-top: 2rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+    h2 {
+      font-size: 2rem;
+      text-shadow: 0 0 8px #0ff;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #ddd;
+      margin-bottom: 1.5rem;
+    }
+
+    .code-box {
+      background: #111;
+      padding: 1rem;
+      border-radius: 10px;
+      border-left: 4px solid #0ff;
+      color: #0f0;
+      font-family: monospace;
+      overflow-x: auto;
+      margin-bottom: 2rem;
+    }
+
+    .demo-button {
+      background: transparent;
+      color: #0ff;
+      border: 2px solid #0ff;
+      padding: 0.7rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      margin: 1rem 0;
+      text-shadow: 0 0 8px #0ff;
+      transition: all 0.3s;
+    }
+
+    .demo-button:hover {
+      background-color: #0ff;
+      color: #000;
+      box-shadow: 0 0 20px #0ff;
+      cursor: pointer;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.7rem 1.5rem;
+      border: 2px solid #0ff;
+      color: #0ff;
+      border-radius: 25px;
+      text-decoration: none;
+      text-shadow: 0 0 5px #0ff;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ff;
+      color: #000;
+      box-shadow: 0 0 20px #0ff;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1.6rem; }
+      .code-box { font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Futuristic CSS Skills</h1>
+
+  <div class="section">
+    <h2>🎨 What is CSS?</h2>
+    <p>
+      CSS (Cascading Style Sheets) is how we **style and shape websites**. From colors to layout to animations — CSS is what makes a website look and feel alive.
+    </p>
+
+    <h2>🌍 Real-World Uses</h2>
+    <p>
+      - Designing responsive websites for phones, tablets, PCs  
+      - Creating hover effects, dropdown menus, modals  
+      - Animating elements for futuristic UIs  
+      - Making apps look clean and professional (like Netflix, Spotify)
+    </p>
+
+    <h2>💡 Practical Example: Glowing Button</h2>
+    <div class="code-box">
+      &lt;button class="glow"&gt;Click Me&lt;/button&gt;<br><br>
+      .glow {<br>
+      &nbsp;&nbsp;background: transparent;<br>
+      &nbsp;&nbsp;color: #0ff;<br>
+      &nbsp;&nbsp;border: 2px solid #0ff;<br>
+      &nbsp;&nbsp;border-radius: 30px;<br>
+      &nbsp;&nbsp;padding: 10px 20px;<br>
+      &nbsp;&nbsp;text-shadow: 0 0 8px #0ff;<br>
+      &nbsp;&nbsp;transition: 0.3s;<br>
+      }<br>
+      .glow:hover {<br>
+      &nbsp;&nbsp;background: #0ff;<br>
+      &nbsp;&nbsp;color: #000;<br>
+      &nbsp;&nbsp;box-shadow: 0 0 20px #0ff;<br>
+      }
+    </div>
+
+    <button class="demo-button">Live Demo Button</button>
+
+    <h2>📱 Why It Matters</h2>
+    <p>
+      Most users today are on **mobile devices**. I use **media queries**, **flexbox**, and **grid** to build responsive designs that adjust beautifully to all screen sizes. And I add **animations** that create a smooth experience.
+    </p>
+
+    <h2>🚀 How I Use CSS</h2>
+    <p>
+      I style everything from login forms to full dashboards. I use custom properties (`--main-color`) and structure styles for **easy theme control** — like in this portfolio. I also use animation tricks to boost user engagement.
+    </p>
+  </div>
+
+  <a href="index.html" class="btn">⬅ Back to Home</a>
+
+</body>
+</html>
